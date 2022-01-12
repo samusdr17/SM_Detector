@@ -1,0 +1,40 @@
+{% extends "SM_DetectorApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" style="margin-left: 18%;" src="{% static 'SM_DetectorApp/img/imgcolor_2.gif' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Compruebo tu salubridad</span>
+            <span class="section-heading-lower">Pruebame</span>
+          </h2>
+          <p class="mb-3">SM_Detector es una herramienta que trata de facilitar la diagnosis de la esclerosis multiple de una forma visual al paciente
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- Message -->
+      <section class="page-section cta">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-9 mx-auto">
+              <div class="cta-inner text-center rounded">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">Compromiso total</span>
+                  <span class="section-heading-lower">Garantizado</span>
+                </h2>
+                <p class="mb-0">La segmentacón en la imagen de la MRI utlizando el algoritmo K-means y la conversión de escala de grises a rgb hacen de la visualización de la patología una manera clara y eficiente de poder comprenderla</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+{% endblock %}
